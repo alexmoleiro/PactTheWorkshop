@@ -11,3 +11,9 @@ Pact 3.6.2
 
 Installation for Gradle
 https://plugins.gradle.org/plugin/au.com.dius.pact
+
+## Rest client 
+http://cxf.apache.org/docs/jax-rs-client-api.html
+
+## Google-Http-client
+https://www.baeldung.com/google-http-client
