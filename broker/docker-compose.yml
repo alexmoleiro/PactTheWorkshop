@@ -1,0 +1,24 @@
+version: '3.4'
+
+services:
+  pactbroker:
+    build: .
+    environment:
+      PACT_BROKER_DATABASE_ADAPTER: postgres
+      PACT_BROKER_DATABASE_USERNAME: pactuser
+      PACT_BROKER_DATABASE_PASSWORD: pass
+      PACT_BROKER_DATABASE_HOST: postgres
+      PACT_BROKER_DATABASE_NAME: pactbroker
+    ports:
+      - 8000:80
+    depends_on:
+      - postgres
+
+  postgres:
+    image: postgres:10.4
+    environment:
+      POSTGRES_USER: pactuser
+      POSTGRES_PASSWORD: pass
+      POSTGRES_DB: pactbroker
+    ports:
+      - 5432:5432
