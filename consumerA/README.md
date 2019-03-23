@@ -1,5 +1,5 @@
 ### Consumer A
-Microservices will be the one of the consumers commuicates with Provider
+Consumer A will be the one of the consumers communicates with Provider
 
 #Pact
 
