@@ -1,0 +1,198 @@
+{
+    "provider": {
+        "name": "productListProvider"
+    },
+    "consumer": {
+        "name": "consumerA"
+    },
+    "interactions": [
+        {
+            "description": "user id",
+            "request": {
+                "method": "GET",
+                "path": "/products/1"
+            },
+            "response": {
+                "status": 200,
+                "headers": {
+                    "Content-Type": "application/json; charset=UTF-8"
+                },
+                "body": {
+                    "productName": "iphoneX"
+                },
+                "matchingRules": {
+                    "body": {
+                        "$.productName": {
+                            "matchers": [
+                                {
+                                    "match": "regex",
+                                    "regex": ".*"
+                                }
+                            ],
+                            "combine": "AND"
+                        }
+                    },
+                    "header": {
+                        "Content-Type": {
+                            "matchers": [
+                                {
+                                    "match": "regex",
+                                    "regex": "application/json(;\\s?charset=[\\w\\-]+)?"
+                                }
+                            ],
+                            "combine": "AND"
+                        }
+                    }
+                }
+            },
+            "providerStates": [
+                {
+                    "name": "get products"
+                }
+            ]
+        },
+        {
+            "description": "get products",
+            "request": {
+                "method": "GET",
+                "path": "/products/1"
+            },
+            "response": {
+                "status": 200,
+                "headers": {
+                    "Content-Type": "application/json; charset=UTF-8"
+                },
+                "body": {
+                    "productName": "iphoneX"
+                },
+                "matchingRules": {
+                    "body": {
+                        "$.productName": {
+                            "matchers": [
+                                {
+                                    "match": "regex",
+                                    "regex": ".*"
+                                }
+                            ],
+                            "combine": "AND"
+                        }
+                    },
+                    "header": {
+                        "Content-Type": {
+                            "matchers": [
+                                {
+                                    "match": "regex",
+                                    "regex": "application/json(;\\s?charset=[\\w\\-]+)?"
+                                }
+                            ],
+                            "combine": "AND"
+                        }
+                    }
+                }
+            },
+            "providerStates": [
+                {
+                    "name": "user id"
+                }
+            ]
+        },
+        {
+            "description": "getProduct products",
+            "request": {
+                "method": "GET",
+                "path": "/products/1"
+            },
+            "response": {
+                "status": 200,
+                "headers": {
+                    "Content-Type": "application/json; charset=UTF-8"
+                },
+                "body": {
+                    "productName": "iphoneX"
+                },
+                "matchingRules": {
+                    "body": {
+                        "$.productName": {
+                            "matchers": [
+                                {
+                                    "match": "regex",
+                                    "regex": ".*"
+                                }
+                            ],
+                            "combine": "AND"
+                        }
+                    },
+                    "header": {
+                        "Content-Type": {
+                            "matchers": [
+                                {
+                                    "match": "regex",
+                                    "regex": "application/json(;\\s?charset=[\\w\\-]+)?"
+                                }
+                            ],
+                            "combine": "AND"
+                        }
+                    }
+                }
+            },
+            "providerStates": [
+                {
+                    "name": "user id"
+                }
+            ]
+        },
+        {
+            "description": "getProducts products",
+            "request": {
+                "method": "GET",
+                "path": "/products/1"
+            },
+            "response": {
+                "status": 200,
+                "headers": {
+                    "Content-Type": "application/json; charset=UTF-8"
+                },
+                "body": {
+                    "productName": "iphoneX"
+                },
+                "matchingRules": {
+                    "body": {
+                        "$.productName": {
+                            "matchers": [
+                                {
+                                    "match": "regex",
+                                    "regex": ".*"
+                                }
+                            ],
+                            "combine": "AND"
+                        }
+                    },
+                    "header": {
+                        "Content-Type": {
+                            "matchers": [
+                                {
+                                    "match": "regex",
+                                    "regex": "application/json(;\\s?charset=[\\w\\-]+)?"
+                                }
+                            ],
+                            "combine": "AND"
+                        }
+                    }
+                }
+            },
+            "providerStates": [
+                {
+                    "name": "user id"
+                }
+            ]
+        }
+    ],
+    "metadata": {
+        "pactSpecification": {
+            "version": "3.0.0"
+        },
+        "pact-jvm": {
+            "version": "3.6.2"
+        }
+    }
+}

@@ -1,12 +1,15 @@
 package com.alexmoleiro.productProvider;
 
+import au.com.dius.pact.provider.junit.Provider;
+import au.com.dius.pact.provider.junit.loader.PactFolder;
+import au.com.dius.pact.provider.spring.SpringRestPactRunner;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.test.context.junit4.SpringRunner;
 
-@RunWith(SpringRunner.class)
-@SpringBootTest
+//@RunWith(SpringRestPactRunner.class)
+@RunWith(SpringRestPactRunner.class)
+@Provider("productListProvider")
+@PactFolder("pacts")
 public class ProductProviderApplicationTests {
 
 	@Test
