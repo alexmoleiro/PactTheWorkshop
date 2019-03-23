@@ -5,8 +5,7 @@ import au.com.dius.pact.consumer.PactVerification;
 import au.com.dius.pact.consumer.dsl.PactDslJsonBody;
 import au.com.dius.pact.consumer.dsl.PactDslWithProvider;
 import au.com.dius.pact.model.RequestResponsePact;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import infrastructure.RestCall;
+import infrastructure.RestService;
 import org.junit.Rule;
 import org.junit.Test;
 
@@ -28,25 +27,24 @@ public class FetchProductPactTest {
 
         return builder
                 .given("user id")
-                .uponReceiving("getProducts products")
-                .path("/products/1")
-                .method("GET")
+                    .uponReceiving("get products")
+                 .path("/products/1")
+                    .method("GET")
                 .willRespondWith()
-                .status(200)
-                .body(jsonResponse)
+                    .status(200)
+                    .body(jsonResponse)
                 .toPact();
 
     }
+
 
     @Test
     @PactVerification(fragment = "getProductsPact")
     public void shouldFetchProducts() throws IOException {
 
-        //I call the Provider the right way
-        String json = RestCall.getProducts();
-
-        //It is correct what I get from the Provider
-        new ObjectMapper().readValue(json, Product.class);
+        String localhost = "http://localhost:8080";
+        String path = "/products/1";
+        RestService.get(path, Product.class, localhost);
 
     }
 
