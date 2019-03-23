@@ -1,5 +1,15 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath "au.com.dius:pact-jvm-provider-gradle_2.12:3.6.2"
+    }
+}
+
 plugins {
     id 'java'
+    id "au.com.dius.pact" version "3.6.2"
 }
 
 group 'com.alexmoleiro'
