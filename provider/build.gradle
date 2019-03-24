@@ -26,7 +26,6 @@ repositories {
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
-	// testImplementation group: 'au.com.dius', name: 'pact-jvm-provider-junit_2.12', version: '3.6.2'
 	testImplementation("au.com.dius:pact-jvm-provider-spring_2.12:3.6.2")
 
 }
