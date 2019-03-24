@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.scala-lang.modules:scala-parser-combinators_2.12:1.0.6">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-parser-combinators_2.12/1.0.6/2785fb31169d9a89298eb05f748d90205bc2592e/scala-parser-combinators_2.12-1.0.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-parser-combinators_2.12/1.0.6/b67822f6858f8cead9a87b43dead5c754bdc0167/scala-parser-combinators_2.12-1.0.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

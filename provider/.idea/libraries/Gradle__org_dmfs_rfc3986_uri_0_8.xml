@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.dmfs:rfc3986-uri:0.8">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.dmfs/rfc3986-uri/0.8/8f5a5de5e891f200d552725dea13767b7d2b6e7/rfc3986-uri-0.8.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.dmfs/rfc3986-uri/0.8/8addf776b20529721d23e4bc29cb826e27f2a389/rfc3986-uri-0.8-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

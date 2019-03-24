@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: au.com.dius:pact-jvm-provider_2.12:3.6.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/au.com.dius/pact-jvm-provider_2.12/3.6.2/8ddf25eab195248883af8e5000d3e04bb4fc1901/pact-jvm-provider_2.12-3.6.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/au.com.dius/pact-jvm-provider_2.12/3.6.2/10bf39900f650405cbf57ee695cb9f589608a6f6/pact-jvm-provider_2.12-3.6.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
