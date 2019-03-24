@@ -19,6 +19,7 @@ pact {
     publish {
         pactDirectory = 'target/pacts'
         pactBrokerUrl = 'http://localhost:8000'
+        tags = [getWorkingBranch()]
     }
 }
 sourceCompatibility = 1.8
@@ -33,4 +34,12 @@ dependencies {
 
     testCompile group: 'junit', name: 'junit', version: '4.12'
     testCompile("au.com.dius:pact-jvm-consumer-junit_2.12:3.6.2")
+}
+
+def getWorkingBranch() {
+    def workingBranch = """git --git-dir=${rootDir}/../.git
+                               --work-tree=${rootDir}/..
+                               rev-parse --abbrev-ref HEAD""".execute().text.trim()
+    print "Working branch: " + workingBranch
+    return workingBranch
 }
