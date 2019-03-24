@@ -27,7 +27,6 @@ public class FetchProductPactTest {
                 .asBody();
 
         return builder
-                //.given("user id")
                     .uponReceiving("get products")
                  .path("/products/1")
                     .method("GET")

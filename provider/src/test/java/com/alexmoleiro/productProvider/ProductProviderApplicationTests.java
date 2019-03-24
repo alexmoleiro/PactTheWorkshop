@@ -14,7 +14,7 @@ import java.util.Properties;
 
 @RunWith(RestPactRunner.class)
 @Provider("productProvider")
-@PactBroker(host = "localhost", port = "8000", tags = {"latest", "prod", "dev"})
+@PactBroker(host = "localhost", port = "8000", tags = {"latest"})
 
 public class ProductProviderApplicationTests {
 
