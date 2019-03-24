@@ -16,7 +16,7 @@ public class FetchProductPactTest {
 
     @Rule
     public PactProviderRuleMk2 mockProvider
-            = new PactProviderRuleMk2("productoProvider", "localhost", 8080, this);
+            = new PactProviderRuleMk2("productProvider", "localhost", 8080, this);
 
     @Pact(consumer = "consumerA")
     public RequestResponsePact getProductsPact(PactDslWithProvider builder) {
@@ -26,7 +26,7 @@ public class FetchProductPactTest {
                 .asBody();
 
         return builder
-                .given("user id")
+                //.given("user id")
                     .uponReceiving("get products")
                  .path("/products/1")
                     .method("GET")
