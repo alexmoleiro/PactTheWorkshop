@@ -18,6 +18,7 @@ public class FetchProductPactTest {
     public PactProviderRuleMk2 mockProvider
             = new PactProviderRuleMk2("productProvider", "localhost", 8080, this);
 
+
     @Pact(consumer = "consumerA")
     public RequestResponsePact getProductsPact(PactDslWithProvider builder) {
 

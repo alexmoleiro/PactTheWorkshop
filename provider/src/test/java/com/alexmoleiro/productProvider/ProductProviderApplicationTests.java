@@ -9,11 +9,13 @@ import com.alexmoleiro.productProvider.controller.ProductController;
 import org.junit.Before;
 import org.junit.runner.RunWith;
 
+
 import java.util.Properties;
 
 @RunWith(RestPactRunner.class)
 @Provider("productProvider")
 @PactBroker(host = "localhost", port = "8000", tags = {"latest", "prod", "dev"})
+
 public class ProductProviderApplicationTests {
 
 	@TestTarget
@@ -24,6 +26,7 @@ public class ProductProviderApplicationTests {
 
 		ProductController productController = new ProductController();
 		target.setControllers(productController);
+    
 		verifyToPactBroker();
 
 	}
@@ -37,5 +40,4 @@ public class ProductProviderApplicationTests {
 		prop.put("pact.verifier.publishResults", "true");
 		System.setProperties(prop);
 	}
-
 }
