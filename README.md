@@ -1,50 +1,72 @@
-# Pact, TheWorkshop
+# Pact, The Workshop
 Enjoy testing microservices with Pact https://docs.pact.io/
 
-So far, this workshop will let you:
-- Define a contract from a Consumer and publish it to the broker
-- Verify the contract with a Provider
-- Run a broker to share pacts and verifications
+# Agenda
+##### Talk
+- Brief intro to Consumer Driven Contract and Pact - 20 minutes
 
-### Language
+##### Hands-on
+
+- Pact creation and testing - 30 minutes
+- Pact Broker - 30 minutes
+- Tags: how to overcome the version hell - 40 minutes
+
+#### Language
 At the moment, this workshop is made for Java. Soon it'll be extended with Javascript and many more languages.
 
-### Start the Pact Broker
+---
+# The Broker, the Consumer and the Provider
+#### Broker
+
+If you came across this repo and wanna try Pact, you can just follow the following commands: 
 
 ```
 cd broker 
 docker-compose up
 ```
+
 The you'll be able to access it from the browser at:
 
-```localhost:8000```
+```
+http://localhost:8000
+```
 
-### Consumer
+#### Consumer
 Find the consumer at 
 
-```cd consumerA``` 
+```
+cd consumerA
+``` 
 
 Create pact file running its tests with 
 
-```./gradlew tests```
+```
+./gradlew tests
+```
 
-and the publish it to the broker with
+and then publish it to the broker with
 
-```./gradlew pactPublish```
+```
+./gradlew pactPublish
+```
 
-### Provider
+#### Provider
 Find the provider at 
 
-```cd provider``` 
+```
+cd provider
+``` 
 
 Verify pacts running its tests with 
 
-```./gradlew tests```
+```
+./gradlew tests
+```
 
-If the verify, they will be published to the broker as well
+If they verify, they will be published to the broker as well
 
 
-#Enjoy!
+# Enjoy!
 
 
 
