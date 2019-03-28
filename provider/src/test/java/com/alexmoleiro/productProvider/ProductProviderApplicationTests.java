@@ -27,7 +27,7 @@ public class ProductProviderApplicationTests {
 		ProductController productController = new ProductController();
 		target.setControllers(productController);
     
-		verifyToPactBroker();
+		sendVerificationToTheBroker();
 
 	}
 
@@ -35,7 +35,7 @@ public class ProductProviderApplicationTests {
 		target.setRunTimes(1);
 	}
 
-	private void verifyToPactBroker() {
+	private void sendVerificationToTheBroker() {
 		Properties prop = System.getProperties();
 		prop.put("pact.verifier.publishResults", "true");
 		System.setProperties(prop);
