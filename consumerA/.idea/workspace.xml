@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ada50a8d-f25c-4970-b5e5-d13652d64cf4" name="Default Changelist" comment="">
+
+    <list default="true" id="2125a9da-6c84-46b6-b2a5-cf4ddc9091dd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pacts/consumerA-productProvider.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/application/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/application/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/FetchProductPactTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FetchProductPactTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../provider/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../provider/.idea/gradle.xml" afterDir="false" />
+
       <change beforePath="$PROJECT_DIR$/../provider/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../provider/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../provider/src/main/java/com/alexmoleiro/productProvider/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../provider/src/main/java/com/alexmoleiro/productProvider/controller/ProductController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../provider/src/test/java/com/alexmoleiro/productProvider/ProductProviderApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../provider/src/test/java/com/alexmoleiro/productProvider/ProductProviderApplicationTests.java" afterDir="false" />
@@ -61,12 +67,23 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/FetchProductPactTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="48" column="34" selection-start-line="48" selection-start-column="34" selection-end-line="48" selection-end-column="34" />
+            <state relative-caret-position="329">
+              <caret line="41" column="14" lean-forward="true" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
+
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -74,11 +91,31 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
+
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/au.com.dius/pact-jvm-consumer_2.12/3.6.2/477473e2b8c875e9a503d185a1dd1e6ae8208591/pact-jvm-consumer_2.12-3.6.2-sources.jar!/au/com/dius/pact/consumer/dsl/PactDslJsonBody.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+            <state relative-caret-position="116">
+              <caret line="53" column="9" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/au.com.dius/pact-jvm-consumer-junit_2.12/3.6.2/b3ef8e12fee4cc74db873aa08815b3fdff7c9ae7/pact-jvm-consumer-junit_2.12-3.6.2-sources.jar!/au/com/dius/pact/consumer/PactVerification.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/annotation/Target.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="580">
+              <caret line="78" column="18" selection-start-line="78" selection-start-column="18" selection-end-line="78" selection-end-column="18" />
+
             </state>
           </provider>
         </entry>
@@ -86,8 +123,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/application/Product.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+
+            <state relative-caret-position="45">
+              <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+
             </state>
           </provider>
         </entry>
@@ -95,8 +134,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/infrastructure/RestService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+
+            <state relative-caret-position="90">
+              <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
+
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -107,8 +148,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/target/pacts/consumerA-productProvider.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+
+            <state>
+              <caret column="1" selection-start-column="1" selection-end-column="1" />
+
             </state>
           </provider>
         </entry>
@@ -119,33 +162,35 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$/.." value="tag_git_branch_name" />
+
+        <entry key="$PROJECT_DIR$/.." value="master" />
+
       </map>
     </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+
+        <option value="$PROJECT_DIR$/src/main/java/infrastructure/RestService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/application/Product.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/test/java/FetchProductPactTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/application/Product.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="511" />
-    <option name="y" value="33" />
-    <option name="width" value="929" />
-    <option name="height" value="794" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
-      <autoscrollFromSource ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -215,15 +260,20 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553591090539" />
+
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553763844992" />
+
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Java" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -237,7 +287,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.consumerA [pactPublish]">
+
+  <component name="RunManager" selected="JUnit.FetchProductPactTest">
+
     <configuration name="consumerA [pactPublish]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -266,9 +318,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+
+    <configuration name="FetchProductPactTest.shouldFetchProducts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.alexmoleiro.consumerA.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FetchProductPactTest" />
+      <option name="METHOD_NAME" value="shouldFetchProducts" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.FetchProductPactTest" />
+        <item itemvalue="JUnit.FetchProductPactTest.shouldFetchProducts" />
+
         <item itemvalue="Gradle.consumerA [pactPublish]" />
       </list>
     </recent_temporary>
@@ -278,101 +343,73 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ada50a8d-f25c-4970-b5e5-d13652d64cf4" name="Default Changelist" comment="" />
-      <created>1553355509716</created>
+
+      <changelist id="2125a9da-6c84-46b6-b2a5-cf4ddc9091dd" name="Default Changelist" comment="" />
+      <created>1553616883315</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1553355509716</updated>
-      <workItem from="1553355511710" duration="381000" />
-      <workItem from="1553355983797" duration="12490000" />
-      <workItem from="1553380034146" duration="1010000" />
-      <workItem from="1553440372463" duration="8000" />
-      <workItem from="1553440527168" duration="5792000" />
-      <workItem from="1553539119479" duration="1665000" />
+      <updated>1553616883315</updated>
+      <workItem from="1553616884606" duration="330000" />
+      <workItem from="1553617234749" duration="3922000" />
+      <workItem from="1553677315037" duration="1061000" />
+      <workItem from="1553705825420" duration="1447000" />
     </task>
-    <task id="LOCAL-00001" summary="Pact is tagged using the git branch name">
-      <created>1553466783776</created>
+    <task id="LOCAL-00001" summary="Both Consumer version and tag are now in sync">
+      <created>1553620108308</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1553466783776</updated>
+      <updated>1553620108308</updated>
     </task>
-    <task id="LOCAL-00002" summary="Readme and first test">
-      <created>1553360175751</created>
+    <task id="LOCAL-00002" summary="Added the Jackson dependency to Gradle">
+      <created>1553636310939</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1553360175751</updated>
+      <updated>1553636310939</updated>
     </task>
-    <task id="LOCAL-00003" summary="Clean up">
-      <created>1553360304643</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1553360304643</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Typo fixed">
-      <created>1553360363775</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1553360363775</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Tests are well installed and running is possible">
-      <created>1553361306531</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1553361306531</updated>
-    </task>
-    <task id="LOCAL-00006" summary="The simplest Pact verification">
-      <created>1553364144933</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1553364144933</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Pact Verification after a Rest Call">
-      <created>1553368613038</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1553368613038</updated>
-    </task>
-    <task id="LOCAL-00008" summary="RestService is created to fetch a Product by id">
-      <created>1553370139140</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1553370139140</updated>
-    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FetchProductPactTest - 2019.03.25 at 22h 48m 53s.xml">
+    <history-entry file="FetchProductPactTest_shouldFetchProducts - 2019.03.26 at 17h 21m 30s.xml">
+      <configuration name="FetchProductPactTest.shouldFetchProducts" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FetchProductPactTest - 2019.03.26 at 22h 16m 06s.xml">
       <configuration name="FetchProductPactTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FetchProductPactTest - 2019.03.25 at 22h 49m 41s.xml">
+    <history-entry file="FetchProductPactTest - 2019.03.26 at 22h 20m 15s.xml">
       <configuration name="FetchProductPactTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FetchProductPactTest - 2019.03.25 at 22h 49m 54s.xml">
+    <history-entry file="FetchProductPactTest - 2019.03.26 at 22h 37m 20s.xml">
       <configuration name="FetchProductPactTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FetchProductPactTest - 2019.03.25 at 22h 50m 01s.xml">
+    <history-entry file="FetchProductPactTest - 2019.03.26 at 22h 38m 46s.xml">
       <configuration name="FetchProductPactTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FetchProductPactTest - 2019.03.25 at 22h 59m 30s.xml">
+    <history-entry file="FetchProductPactTest_shouldFetchProducts - 2019.03.26 at 22h 40m 37s.xml">
+      <configuration name="FetchProductPactTest.shouldFetchProducts" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FetchProductPactTest - 2019.03.26 at 22h 43m 44s.xml">
+      <configuration name="FetchProductPactTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FetchProductPactTest - 2019.03.26 at 22h 43m 59s.xml">
+      <configuration name="FetchProductPactTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FetchProductPactTest - 2019.03.26 at 22h 46m 54s.xml">
+
       <configuration name="FetchProductPactTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2364000" />
+
+    <option name="totallyTimeSpent" value="6760000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="511" y="33" width="929" height="794" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1330327" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21459228" />
+
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -380,19 +417,25 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.27207977" />
+
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.10963856" />
+
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Build" order="7" weight="0.2253012" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.36144578" />
+
+      <window_info anchor="bottom" id="Build" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.41686746" />
+
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="CheckStyle" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" weight="0.40722892" />
+
+      <window_info anchor="bottom" id="Version Control" order="13" visible="true" weight="0.23975904" />
+
       <window_info anchor="bottom" id="Messages" order="14" weight="0.32891566" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -400,100 +443,174 @@
       <window_info anchor="right" id="Maven" order="3" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Gradle" order="6" weight="0.3720406" />
+
+      <window_info anchor="right" id="Gradle" order="6" visible="true" weight="0.1981402" />
+
       <window_info anchor="right" id="SciView" order="7" />
       <window_info anchor="right" id="Database" order="8" />
       <window_info anchor="right" id="Palette&#9;" order="9" />
       <window_info anchor="right" id="Theme Preview" order="10" />
     </layout>
   </component>
+
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Both Consumer version and tag are now in sync" />
+    <MESSAGE value="Added the Jackson dependency to Gradle" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added the Jackson dependency to Gradle" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/au.com.dius/pact-jvm-consumer_2.12/3.6.2/477473e2b8c875e9a503d185a1dd1e6ae8208591/pact-jvm-consumer_2.12-3.6.2-sources.jar!/au/com/dius/pact/consumer/dsl/PactDslWithProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/au.com.dius/pact-jvm-consumer_2.12/3.6.2/477473e2b8c875e9a503d185a1dd1e6ae8208591/pact-jvm-consumer_2.12-3.6.2-sources.jar!/au/com/dius/pact/consumer/dsl/PactDslJsonBody.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5070">
-          <caret line="386" column="27" selection-start-line="386" selection-start-column="27" selection-end-line="386" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gradlew">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/au.com.dius/pact-jvm-consumer_2.12/3.6.2/477473e2b8c875e9a503d185a1dd1e6ae8208591/pact-jvm-consumer_2.12-3.6.2-sources.jar!/au/com/dius/pact/consumer/Pact.kt">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ajoberstar/grgit/1.1.0/daef09a03e59b035980c2b2c5aea6a54dd5fff98/grgit-1.1.0-sources.jar!/org/ajoberstar/grgit/Grgit.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="678">
-          <caret line="100" column="6" selection-start-line="100" selection-start-column="6" selection-end-line="100" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/pacts/consumerA-productProvider.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        <state relative-caret-position="495">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/application/Product.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        <state relative-caret-position="45">
+          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/infrastructure/RestService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        <state relative-caret-position="90">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/pacts/consumerA-productProvider.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/annotation/Target.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="78" column="18" selection-start-line="78" selection-start-column="18" selection-end-line="78" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/au.com.dius/pact-jvm-consumer_2.12/3.6.2/477473e2b8c875e9a503d185a1dd1e6ae8208591/pact-jvm-consumer_2.12-3.6.2-sources.jar!/au/com/dius/pact/consumer/dsl/PactDslJsonBody.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="53" column="9" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/au.com.dius/pact-jvm-consumer-junit_2.12/3.6.2/b3ef8e12fee4cc74db873aa08815b3fdff7c9ae7/pact-jvm-consumer-junit_2.12-3.6.2-sources.jar!/au/com/dius/pact/consumer/PactVerification.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/FetchProductPactTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="48" column="34" selection-start-line="48" selection-start-column="34" selection-end-line="48" selection-end-column="34" />
+
+        <state relative-caret-position="329">
+          <caret line="41" column="14" lean-forward="true" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
+
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
+
+
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Python 2.7 interpreter library</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>com.alexmoleiro.consumerA</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Gradle: au.com.dius:pact-jvm-consumer-junit_2.12:3.6.2</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
