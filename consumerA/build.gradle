@@ -36,10 +36,13 @@ dependencies {
     testCompile("au.com.dius:pact-jvm-consumer-junit_2.12:3.6.2")
 
 }
+
 def getWorkingBranch() {
     def workingBranch = """git --git-dir=${rootDir}/../.git
                                --work-tree=${rootDir}/..
                                rev-parse --abbrev-ref HEAD""".execute().text.trim()
     print "Working branch: " + workingBranch
     return workingBranch
+
 }
+
