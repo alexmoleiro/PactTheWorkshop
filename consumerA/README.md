@@ -7,7 +7,7 @@ Java 1.8
 JUnit 4
 Pact 3.6.2
 
-##Pact
+## Pact
 
 Installation for Gradle
 https://plugins.gradle.org/plugin/au.com.dius.pact

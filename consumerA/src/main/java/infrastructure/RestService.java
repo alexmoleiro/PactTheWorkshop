@@ -11,9 +11,11 @@ import java.io.IOException;
 
 public class RestService {
 
-    public static Product get(String path, Class<Product> valueType, String server) throws IOException {
+    private static final String server = "http://localhost:8080";
+
+    public static Product get(String path) throws IOException {
         HttpRequestFactory request = new NetHttpTransport().createRequestFactory();
         HttpRequest httpRequest = request.buildGetRequest(new GenericUrl(server + path));
-        return new ObjectMapper().readValue(httpRequest.execute().parseAsString(), valueType);
+        return new ObjectMapper().readValue(httpRequest.execute().parseAsString(), Product.class);
     }
 }

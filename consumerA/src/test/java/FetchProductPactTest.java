@@ -1,4 +1,3 @@
-import application.Product;
 import au.com.dius.pact.consumer.Pact;
 import au.com.dius.pact.consumer.PactProviderRuleMk2;
 import au.com.dius.pact.consumer.PactVerification;
@@ -11,42 +10,32 @@ import org.junit.Test;
 
 import java.io.IOException;
 
-
 public class FetchProductPactTest {
 
-    @Rule
-    public PactProviderRuleMk2 mockProvider
-            = new PactProviderRuleMk2("productProvider", "localhost", 8080, this);
+    private static final String PATH = "/products/1";
 
+    @Rule
+    public PactProviderRuleMk2 provider = new PactProviderRuleMk2("productProvider", "localhost", 8080, this);
 
     @Pact(consumer = "consumerA")
-    public RequestResponsePact getProductsPact(PactDslWithProvider builder) {
-
+    public RequestResponsePact getProducts(PactDslWithProvider builder) {
         PactDslJsonBody jsonResponse = new PactDslJsonBody()
-                .stringMatcher("productName", ".*", "iphoneX")
+                .stringMatcher("name", ".*", "iphoneX")
                 .asBody();
 
-        return builder
-                    .uponReceiving("get products")
-                 .path("/products/1")
-                    .method("GET")
+        return builder.uponReceiving("get products")
+                .path(PATH)
+                .method("GET")
                 .willRespondWith()
-                    .status(200)
-                    .body(jsonResponse)
+                .status(200)
+                .body(jsonResponse)
                 .toPact();
-
     }
-
 
     @Test
-    @PactVerification(fragment = "getProductsPact")
+    @PactVerification(fragment = "getProducts")
     public void shouldFetchProducts() throws IOException {
-
-        String localhost = "http://localhost:8080";
-        String path = "/products/1";
-        RestService.get(path, Product.class, localhost);
-
+        RestService.get("/products/1");
     }
-
 
 }
