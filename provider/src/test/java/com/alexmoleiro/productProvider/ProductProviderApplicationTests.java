@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(RestPactRunner.class)
 @Provider("productProvider")
-@PactBroker(host = "localhost", port = "8000", tags = {"latest"})
+@PactBroker(host = "localhost", port = "8000", tags = {"add_height","master"})
 public class ProductProviderApplicationTests {
 
 	@TestTarget

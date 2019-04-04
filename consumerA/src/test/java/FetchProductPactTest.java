@@ -19,16 +19,16 @@ public class FetchProductPactTest {
 
     @Pact(consumer = "consumerA")
     public RequestResponsePact getProducts(PactDslWithProvider builder) {
-        PactDslJsonBody jsonResponse = new PactDslJsonBody()
-                .stringMatcher("name", ".*", "iphoneX")
-                .asBody();
 
         return builder.uponReceiving("get products")
                 .path(PATH)
                 .method("GET")
                 .willRespondWith()
                 .status(200)
-                .body(jsonResponse)
+                .body(new PactDslJsonBody()
+                        .stringMatcher("name", ".*", "iphoneX")
+                        .integerType("price", 123)
+                        .asBody())
                 .toPact();
     }
 

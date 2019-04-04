@@ -9,6 +9,6 @@ public class ProductController {
 
     @GetMapping(produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
     public String getProduct() {
-        return "{\"name\":\"iphoneX\"}";
+        return "{\"name\":\"iphoneX\",\"price\":23}";
     }
 }
