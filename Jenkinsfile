@@ -13,7 +13,7 @@ pipeline {
                         }
             stage('Publish pacts') {
                                             steps {
-                                               sh "cd consumerA && ./gradlew pactPublish"
+                                               sh "cd consumerA && ./gradlew pactPublish --stacktrace"
                                             }
                                     }
     }
