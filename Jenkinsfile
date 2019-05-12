@@ -8,13 +8,12 @@ pipeline {
             }
             stage('Test') {
                                 steps {
-                                    sh "cd consumer A"
-                                    sh "./consumerA/gradlew test"
+                                    sh "cd consumerA && gradlew test"
                                 }
                         }
             stage('Publish pacts') {
                                             steps {
-                                                sh "cd consumer A"
+                                                sh "./consumerA/gradlew pactPublish"
                                                 sh "./consumerA/gradlew pactPublish"
                                             }
                                     }
