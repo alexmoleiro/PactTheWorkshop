@@ -1,5 +1,7 @@
 version: '3.4'
 
+volumes:
+  jenkins:
 services:
   pactbroker:
     build: .
@@ -22,3 +24,12 @@ services:
       POSTGRES_DB: pactbroker
     ports:
       - 5432:5432
+
+  jenkins:
+    image: jenkins/jenkins:lts
+    ports:
+      - 8081:8080
+      - 50000:50000
+    volumes:
+      - jenkins:/var/jenkins
+
