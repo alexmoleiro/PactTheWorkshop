@@ -18,7 +18,7 @@ version "1.0.1.${workingBranch}"
 pact {
     publish {
         pactDirectory = 'target/pacts'
-        pactBrokerUrl = 'http://localhost:80'
+        pactBrokerUrl = 'http://0.0.0.0:80'
         tags = [workingBranch]
     }
 }
