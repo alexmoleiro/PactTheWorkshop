@@ -28,6 +28,7 @@ public class FetchProductPactTest {
                 .body(new PactDslJsonBody()
                         .stringMatcher("name", ".*", "iphoneX")
                         .integerType("price", 123)
+                        .integerType("width", 1121223)
                         .asBody())
                 .toPact();
     }
