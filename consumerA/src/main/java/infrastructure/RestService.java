@@ -11,7 +11,7 @@ import java.io.IOException;
 
 public class RestService {
 
-    private static final String server = "http://localhost:8080";
+    private static final String server = "http://localhost:8082";
 
     public static Product get(String path) throws IOException {
         HttpRequestFactory request = new NetHttpTransport().createRequestFactory();
