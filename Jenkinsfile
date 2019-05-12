@@ -3,7 +3,7 @@ pipeline {
     stages {
             stage('Compile') {
                     steps {
-                        sh "./gradlew build"
+                        sh "./consumerA/gradlew build"
                     }
             }
     }
