@@ -15,7 +15,7 @@ public class FetchProductPactTest {
     private static final String PATH = "/products/1";
 
     @Rule
-    public PactProviderRuleMk2 provider = new PactProviderRuleMk2("productProvider", "localhost", 8080, this);
+    public PactProviderRuleMk2 provider = new PactProviderRuleMk2("productProvider", "localhost", 8082, this);
 
     @Pact(consumer = "consumerA")
     public RequestResponsePact getProducts(PactDslWithProvider builder) {
